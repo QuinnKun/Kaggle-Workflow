@@ -4,3 +4,12 @@ train = pd.read_csv("train.csv")
 holdout = pd.read_csv("test.csv")
 
 train.head()
+
+
+# Preprocessing the Data
+#1. Handle various missing values from the dataset
+#2. Process the Age column into pre-defined  bins
+#3. Process the Fare column into pre-defined bins
+#4. Process the Cabin column , substring first letter
+#5. Extract and catagorize the title from the name column
+#6. 
